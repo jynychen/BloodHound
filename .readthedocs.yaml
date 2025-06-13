@@ -14,3 +14,6 @@ sphinx:
   configuration: docs/conf.py
   # Fail on all warnings to avoid broken references
   fail_on_warning: true
+python:
+  install:
+    - requirements: docs/requirements.txt
